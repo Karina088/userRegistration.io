@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
     <link
         href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic"
-        rel="stylesheet" />
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 
@@ -49,7 +48,8 @@
 
     <nav class="dropdown">
         <div class="dropdown__btn">
-            <button easy-toggle="#main_menu" easy-class="show" class="dropdown-toggle">Nomad List</button>
+            <!-- <button easy-toggle="#main_menu" easy-class="show" class="dropdown-toggle">Nomad List</button> -->
+            <button id="main_btn" class="dropdown-toggle show">Nomad List</button>
             <div class="dropdown-icon">
                 <img class="dropdown__img" src="img/dropdown/gear.svg" alt="icon photo">
             </div>
@@ -329,14 +329,11 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
-    <script type="module">
-        const easySetup = require("easy-toggler");
-        easySetup();
-    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/messageBtn.js"></script>
+    <script src="js/worker.js"></script>
 </body>
 
 </html>
