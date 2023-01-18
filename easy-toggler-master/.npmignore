@@ -1,8 +1,0 @@
-.git
-.github
-readme
-.eslintrc.js
-src
-babel.config.js
-rollup.config.js
-.editorconfig
