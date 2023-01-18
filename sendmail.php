@@ -1,7 +1,7 @@
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// use PHPMailer\PHPMailer\Exception;
 
 require 'phpmailer/scr/Exception.php';
 require 'phpmailer/scr/PHPMailer.php';
@@ -9,7 +9,7 @@ require 'phpmailer/scr/PHPMailer.php';
 $mail = new PHPMailer(true);
 $mail->CharSet = 'UTF-8';
 $mail->setLanguage('ru', 'phpmailer/language/');
-$mail->isHTML(true);
+$mail->IsHTML(true);
 
 // от кого письмо
 $mail->setFrom('morskya.life@gmail.com', 'Kary');
@@ -25,10 +25,10 @@ if (trim(!empty(['name']))) {
     $body .= '<p><strong>Имя:</strong> ' . $_POST['name'] . '</p>';
 }
 if (trim(!empty(['email']))) {
-    $body .= '<p><strong>Email:</strong> ' . $_POST['email'] . '</p>';
+    $body .= '<p><strong>E-mail:</strong> ' . $_POST['email'] . '</p>';
 }
 if (trim(!empty(['message']))) {
-    $body .= '<p><strong>Message:</strong> ' . $_POST['message'] . '</p>';
+    $body .= '<p><strong>Сообщение:</strong> ' . $_POST['message'] . '</p>';
 }
 
 // прикрепить файл 
