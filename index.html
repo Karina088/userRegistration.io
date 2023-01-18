@@ -57,7 +57,7 @@
             <img src="img/dropdown/thoughtCloud.svg" alt="icon photo">
             <p class="dropdown-par">All treads</p>
         </div>
-        <div id="main_menu" class="dropdown__menu">
+        <nav id="main_menu" class="dropdown__menu">
             <h4 class="dropdown__menu-h4">Channels</h4>
             <ul>
                 <li><a href="#"># general</a></li>
@@ -88,7 +88,7 @@
                 <li><a href="#"># italy</a></li>
                 <li><a href="#"># freelance</a></li>
             </ul>
-        </div>
+        </nav>
         <div class="friends_list">
             <div class="friends_list__text">
                 <h4 class="friends_list-title">friends</h4>
@@ -262,7 +262,7 @@
                         <hr class="swiper__line-hr">
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <div class="swiper-content">
                         <div class="swiper-content__text">
                             <h4 class="swiper__title"><span></span></h4>
@@ -277,7 +277,7 @@
                             <p class="swiper__par swiper__par-text"></p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="swiper-scrollbar"></div>
@@ -329,6 +329,10 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
+    <script type="module">
+        const easySetup = require("easy-toggler");
+        easySetup();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/messageBtn.js"></script>
