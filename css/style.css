@@ -166,7 +166,7 @@ button:hover {
     box-shadow: 0 5px 10px rgba(0 0 0 / 20%);
 }
 
-/* #main_menu {
+#main_menu {
     overflow-y: scroll;
     color: #797777;
     height: 234px;
@@ -183,28 +183,6 @@ button:hover {
 }
 
 #main_menu::-webkit-scrollbar-track {
-    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
-    background-color: #9c9c9c;
-    border-radius: 10px;
-} */
-
-#main_btn {
-    overflow-y: scroll;
-    color: #797777;
-    height: 234px;
-}
-
-#main_btn::-webkit-scrollbar {
-    width: 7px;
-    background-color: #696161;
-}
-
-#main_btn::-webkit-scrollbar-thumb {
-    background-color: #54575a;
-    border-radius: 12px;
-}
-
-#main_btn::-webkit-scrollbar-track {
     -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
     background-color: #9c9c9c;
     border-radius: 10px;
