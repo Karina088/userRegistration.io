@@ -128,7 +128,6 @@ form * {
     width: 100%;
     height: 100%;
     background: rgba(236, 201, 204, 0.659) url("../img/message/catLoading.gif") center / 500px no-repeat;
-    /* background: rgba(255, 255, 255, 0.659) url("../img/message/whiteLoading.gif") center / 400px no-repeat; */
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.5s ease 0s;
@@ -178,7 +177,6 @@ input.form__input {
 }
 
 .form__input:focus {
-    /* box-shadow: 0 0 8px #5372ab95; */
     -webkit-box-shadow: 0 0 10px #53ab92f0;
     box-shadow: 0 0 10px #53ab92f0;
 }
@@ -203,8 +201,6 @@ textarea.form__input {
     padding: 20px;
     border: 0.5px solid #aeaeae5d;
 }
-
-.file {}
 
 .file__item {
     position: relative;
