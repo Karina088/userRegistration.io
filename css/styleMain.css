@@ -72,7 +72,7 @@ input[placeholder="Search..."] {
     padding: 8px 112px 8px 8px;
 }
 
-.searchBtn {
+.searchBtnMain {
     right: 11%;
     position: absolute;
     top: 34px;
