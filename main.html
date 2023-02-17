@@ -133,8 +133,9 @@
             </div>
             <div class="search">
                 <form action="#">
-                    <input type="text" placeholder="Search...">
-                    <button type="reset"><img src="img/content/search.svg" alt="search icon"></button>
+                    <input type="text" id="searchForm" placeholder="Search..." value="">
+                    <button class="searchBtn" type="submit" onclick="FindOnPageWords('searchForm'); return false;"><img
+                            src="img/content/search.svg" alt="search icon"></button>
                 </form>
             </div>
             <div class="bell">
@@ -204,7 +205,6 @@
                 </div>
 
             </div>
-
             <div class="swiper-scrollbar"></div>
         </section>
         <div class="form__message">
@@ -271,6 +271,7 @@
     <script src="js/main.js"></script>
     <script src="js/form.js"></script>
     <script src="js/worker.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>

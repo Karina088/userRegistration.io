@@ -79,8 +79,15 @@ input[placeholder="Search..."] {
     padding: 8px 112px 8px 8px;
 }
 
-button[type="reset"] {
+.searchBtn {
     right: 11%;
+    position: absolute;
+    top: 34px;
+    z-index: 9;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: white;
 }
 
 .bell {
@@ -92,7 +99,6 @@ form * {
 }
 
 .form__message {
-    /* background-color: #ffffff; */
     border-top: 0.5px solid rgba(0, 0, 0, 0.24);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(224, 229, 236, 0.633)), to(rgba(121, 185, 230, 0.664)));
     background-image: -o-linear-gradient(left, rgba(224, 229, 236, 0.633), rgba(121, 185, 230, 0.664));
