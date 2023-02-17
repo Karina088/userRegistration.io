@@ -119,11 +119,6 @@
                 <img class="friends_list-avatar" src="img/friend/face.jpg" alt="avatar photo">
                 <p class="friends_list__par">Orlando Diggs</p>
             </div>
-            <!-- <div class="friends_list__description">
-                <div class="friends_list-ball friends_list-ball-offline"></div>
-                <img class="friends_list-avatar" src="img/friend/face.jpg" alt="avatar photo">
-                <p class="friends_list__par">Orlando Diggs</p>
-            </div> -->
         </div>
     </nav>
 
@@ -139,17 +134,16 @@
             </div>
             <div class="search">
                 <form action="#">
-                    <input type="text" placeholder="Search...">
-                    <button type="reset"><img src="img/content/search.svg" alt="search icon"></button>
+                    <input type="text" id="searchForm" placeholder="Search..." value="">
+                    <button class="searchBtn" type="submit" onclick="FindOnPageWords('searchForm'); return false;"><img
+                            src="img/content/search.svg" alt="search icon"></button>
                 </form>
             </div>
             <div class="bell">
             </div>
         </section>
         <section class="swiper">
-            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-                <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="swiper-content">
                         <img src="img/swiper/avatarJeshua.jpg" alt="avatar photo">
@@ -333,6 +327,7 @@
     <script src="js/script.js"></script>
     <script src="js/messageBtn.js"></script>
     <script src="js/worker.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>

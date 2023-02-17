@@ -277,7 +277,8 @@ button:hover {
     display: -ms-flexbox;
     display: flex;
     gap: 14px;
-    padding-top: 26px;
+    padding-top: 24px;
+    padding-bottom: 5px;
 }
 
 .friends_list-ball {
@@ -479,7 +480,7 @@ input[type="text"] {
     outline: none;
 }
 
-button[type="reset"] {
+.searchBtn {
     position: absolute;
     top: 34px;
     right: 19%;
